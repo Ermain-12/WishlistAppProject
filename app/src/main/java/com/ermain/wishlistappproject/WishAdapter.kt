@@ -38,7 +38,7 @@ class WishAdapter(private val wishlist: MutableList<Wish>)
         val wish: Wish = wishlist[position]
 
         holder.wishItemName.text = wish.name
-        holder.wishItemURL.text = wish.url
+        holder.wishItemAmount.text = wish.price
         holder.wishItemURL.text = wish.url
     }
 
